@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//1號路由
+Route::get('user/{id}','ShowProfile');
